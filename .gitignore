@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Packaging / env
+.Python
+.venv/
+venv/
+env/
+.env
+
+# Logs
+*.log
+*.out
+*.err
+
+# Training outputs
+outputs/
+tb/
+events.out.tfevents.*
+trajectories.jsonl
+checkpoint-*/
+final/
+
+# Local runtime markers
+*.run_dir
+
+# Archives
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+
+# Images generated during experiments
+*.png
+*.jpg
+*.jpeg
+!assets/*.png
+
+# Dataset binaries (download from Baidu Netdisk, see README)
+dataset/*
+!dataset/.gitkeep
+
+# IDE / tool configs
+.claude/
+
+# Internal workflow templates / notes
